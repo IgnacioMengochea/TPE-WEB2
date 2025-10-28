@@ -12,13 +12,9 @@ class CategoryView {
         require 'templates/add-category-form.php';
     }
 
-    // --- ¡¡NUEVA FUNCIÓN DE EDITAR!! ---
-    /**
-     * Muestra el formulario para editar una categoría existente.
-     */
     public function renderEditCategoryForm($category) {
         echo "<h2>Editar Categoría: " . $category->nombre . "</h2>";
-        // Llama a la plantilla del form de edición (la crearemos ahora)
         require 'templates/edit-category-form.php';
     }
+
 }
