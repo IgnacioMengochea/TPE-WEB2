@@ -1,0 +1,10 @@
+RewriteEngine On
+
+# Condición: Si la URL NO es un archivo que existe físicamente
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Condición: Y si la URL NO es un directorio que existe físicamente
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Regla: Re-escribe la URL y mándala a index.php
+RewriteRule ^(.*)$ index.php?action=$1 [L,QSA]
