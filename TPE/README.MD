@@ -8,9 +8,10 @@ Sitio web dinámico para la gestión de una pizzería, desarrollado como Trabajo
 * **Parte de Administración:**
     * Ve a `http://localhost/TPE/login`.
     * Ingresa las siguientes credenciales:
-        * **Usuario:** `webadmin`
-        * **Contraseña:** `admin`
+        * **Usuario:** `webadmin`.
+        * **Contraseña:** `admin`.
     * Serás redirigido al panel de administración (`http://localhost/TPE/admin/dashboard`), donde podrás gestionar las pizzas y las categorías.
 
 Anexamos la base de datos extraida de PhpMyAdmin con el nombre "tpe2.sql"... Hicimos el proyecto en una misma PC por eso entregamos todo el TPE junto.
+
 
