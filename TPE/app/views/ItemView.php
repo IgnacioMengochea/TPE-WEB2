@@ -2,7 +2,6 @@
 
 class ItemView {
 
-    // --- Funciones Públicas ---
 
     public function renderAllPizzas($pizzas) {
         echo "<h1>Nuestro Menú - Es Tu Pizza</h1>";
@@ -14,7 +13,6 @@ class ItemView {
         require 'templates/pizza-detail.php';
     }
 
-    // --- Funciones de Admin ---
 
     public function renderAdminDashboard($pizzas) {
         require 'templates/admin-dashboard.php';
@@ -31,4 +29,5 @@ class ItemView {
         require 'templates/edit-pizza-form.php';
     }
 }
+
 ?>
